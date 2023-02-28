@@ -1,1 +1,264 @@
-.
+/* Reset config*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* --------------------------------------------*/
+
+* {
+    /* width: 100%;
+    height: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    color: black;
+
+    text-decoration: none
+}
+
+a:hover {
+    color: black;
+
+    text-decoration: none
+}
+
+
+
+nav {
+
+    height: 70px;
+    width: 100%;
+
+
+}
+
+nav ul {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    padding-top: 20px;
+
+
+}
+
+.main-container h1 {
+    text-align: center;
+}
+
+.div-nav ul li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #16171C;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institutions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    /* background-color: grey; */
+    
+}
+
+.institutions img {
+    position: relative;
+    left:3%;
+}
+
+.Henry {
+    border: 2px solid rgb(166, 168, 166);
+    border-radius: 20px;
+    width: 100%;
+    height: 120px;
+    margin-bottom: 50px;
+
+}
+
+.Henry:hover {
+    background-color: rgba(166, 168, 166, 0.432);
+}
+
+.Henry img {
+    width: 115px;
+    position: absolute;
+    left:25%;
+    top: 14%
+}
+
+.Oracle {
+    border: 2px solid rgb(166, 168, 166);
+        width: 100%;
+        border-radius: 20px;
+        height: 120px;
+        margin-bottom: 50px;
+        
+}
+
+.Oracle:hover {
+    background-color: rgba(166, 168, 166, 0.432);
+}
+
+.Oracle img {
+    width: 115px;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.Arg-programa {
+    border: 2px solid rgb(166, 168, 166);
+    width: 100%;
+    border-radius: 20px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.Arg-programa:hover {
+    background-color: rgba(166, 168, 166, 0.432);
+}
+
+.Arg-programa img {
+    width: 115px;
+    position: absolute;
+    left: 25%;
+        
+}
+
+.UNLP {
+    border: 2px solid rgb(166, 168, 166);
+    width: 100%;
+    border-radius: 20px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.UNLP:hover {
+    background-color: rgba(166, 168, 166, 0.432);
+}
+
+.UNLP img {
+    width: 100px;
+    position: absolute;
+    left: 25%;
+
+}
+
+.CSP {
+    border: 2px solid rgb(166, 168, 166);
+    width: 100%;
+    border-radius: 20px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.CSP:hover {
+    background-color: rgba(166, 168, 166, 0.432);
+}
+
+.CSP h2 {
+    text-align: center;
+    position: relative;
+    top: 39px;
+    left: 50px;
+}
+
+.CSP img {
+    width: 115px;
+    position: absolute;
+    left: 25%;
+
+}
+
+.data {
+    position: relative;
+    left:20%;
+    top:23px;
+    word-wrap: break-word;
+}
+
+
+
+/* Estilos generales
