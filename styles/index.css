@@ -97,6 +97,16 @@ nav {
 
 }
 
+.nav-claro {
+    background-color: #69b6109c;
+    color: #000000;
+}
+
+.nav-oscuro {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 nav ul {
     
     height: 100%;
