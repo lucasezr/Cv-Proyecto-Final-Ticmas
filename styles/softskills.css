@@ -1,0 +1,192 @@
+/* Reset config*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* --------------------------------------------*/
+
+* {
+    /* width: 100%;
+    height: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    color: black;
+
+    text-decoration: none
+}
+
+a:hover {
+    color: black;
+
+    text-decoration: none
+}
+
+
+
+nav {
+
+    height: 70px;
+    width: 100%;
+
+
+}
+
+nav ul {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    padding-top: 20px;
+
+
+}
+
+.div-nav ul li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: #16171C;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(31, 28, 28);
+    margin: 0;
+    padding: 0;
+}
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+
+
+.soft-skills__item {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 200px;
+    margin-bottom: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.soft-skills__item:hover {
+    transform: rotate(360deg);
+}
+
+.soft-skills__item--mentality {
+    background: linear-gradient(to bottom right, #00d2ff, #3a7bd5);
+}
+
+
+.soft-skills__item--communication {
+    background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+}
+
+.soft-skills__item--innovation {
+    background: linear-gradient(to bottom right, #f857a6, #ff5858);
+}
+
+.soft-skills__item--teamwork {
+    background: linear-gradient(to bottom right, #f83600, #f9d423);
+}
+
+.soft-skills__item--learning {
+    background: linear-gradient(to bottom right, #c471f5, #fa71cd);
+}
+
+.soft-skills__item--organized {
+    background: linear-gradient(to bottom right, #f6d365, #fda085);
+}
+
+.soft-skills__item--positive {
+    background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+}
+
+.soft-skills__item--entrepreneurial {
+    background: linear-gradient(to bottom right, #0f0c29, #302b63);
+}
+
+.soft-skills__item--self-motivated {
+    background: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+}

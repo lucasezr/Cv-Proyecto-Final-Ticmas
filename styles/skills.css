@@ -115,12 +115,79 @@ nav ul {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 body {
     background-color: #16171C;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgb(31, 28, 28);
+    margin: 0;
+    padding: 0;
 }
+
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Estilos para la sección de habilidades */
+#skills {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.skill-category {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.skill-category h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+.skill-category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-category li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0077b5;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.skill-category li:hover {
+    background-color: #262626;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .skill-category {
+        max-width: 90%;
+    }
+
+    .skill-category h3 {
+        font-size: 24px;
+    }
+
+    .skill-category li {
+        font-size: 18px;
+    }
+}
+}
+
+
